@@ -1,7 +1,16 @@
 source 'https://rubygems.org'
 
+ruby '2.3.0'
 
+# Gemfile
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+gem 'simple_form'
+gem 'autoprefixer-rails'
+
+gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
@@ -35,6 +44,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rspec-rails'
 end
 
 group :development do
